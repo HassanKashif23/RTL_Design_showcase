@@ -1,0 +1,6 @@
+A 4 digit stop watch in the format "M:SS:mS"
+The design consist of following modules:
+1. Clock Divider: Generates two clocks (from 50Mhz clock of the FPGA) "0.1sec" to drive millisecond counter and "1sec" clock to drive seconds 7 minute counters. 
+2. Mod Counters: This module consists of 4 4-bit counters (3 mod-10 counters + 1 mod-6 counter) for millisecond, seconds and minutes counting.
+3. BCD decoder: This module converts the 4-bit binary count to its BCD form to derive 7 segment displays.
+4. Time Multiplexer: This circuit fastly switches to drive 4 7segment displays with minimum pins.
