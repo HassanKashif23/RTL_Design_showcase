@@ -1,0 +1,1 @@
+Implementation of a Vending Machine which outputs Juice, No Juice and Coin Rejected based on input (coins), using a Mealy Finite State Machine
